@@ -3,9 +3,14 @@
 <body>
 
 <?php
-  $abcGetallen = array(['a','b','c'],[24,56,78,90]);
+  $abcGetallen =['a','b','c',24,56,78,90];
   print_r($abcGetallen);
-  echo $abcGetallen[0][1];
+  echo "<br>";
+  echo $abcGetallen[0];
+  echo $abcGetallen[4];
+  echo "<br>";
+  echo $abcGetallen[2];
+  echo $abcGetallen[6];
 
 ?>
 
